@@ -4,7 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-/*@EnableJpaRepositories("com.eazybytes.repository")
+/* We use both annotation @EnableJpaRepositories and @EntityScan to know where our model and repository is.
+@EnableJpaRepositories("com.eazybytes.repository")
 @EntityScan("com.eazybytes.model")*/
 public class EazyBankBackendApplication {
 
